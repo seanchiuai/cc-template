@@ -1,0 +1,43 @@
+# {{APP_NAME}} Development Progress Tracker
+# This file tracks which phase of development is currently active
+
+current_phase:
+  phase: 1
+  name: "{{PHASE_1_NAME}}"
+  description: "{{PHASE_1_DESCRIPTION}}"
+  started: "{{DATE}}"
+  status: "not-started"  # not-started | in-progress | complete
+  completion_criteria:
+    - "{{CRITERION_1}}"
+    - "{{CRITERION_2}}"
+    - "{{CRITERION_3}}"
+
+# Phase History
+completed_phases: []
+
+# All Available Phases
+phases:
+  1:
+    name: "{{PHASE_1_NAME}}"
+    description: "{{PHASE_1_DESCRIPTION}}"
+    key_deliverables:
+      - "{{DELIVERABLE_1}}"
+      - "{{DELIVERABLE_2}}"
+      - "{{DELIVERABLE_3}}"
+
+  2:
+    name: "{{PHASE_2_NAME}}"
+    description: "{{PHASE_2_DESCRIPTION}}"
+    key_deliverables:
+      - "{{DELIVERABLE_1}}"
+      - "{{DELIVERABLE_2}}"
+      - "{{DELIVERABLE_3}}"
+
+  3:
+    name: "{{PHASE_3_NAME}}"
+    description: "{{PHASE_3_DESCRIPTION}}"
+    key_deliverables:
+      - "{{DELIVERABLE_1}}"
+      - "{{DELIVERABLE_2}}"
+
+# Add more phases as needed following the same structure
