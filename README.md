@@ -87,6 +87,7 @@ Example skills you might create:
 
 - [Claude Code](https://claude.ai/claude-code) CLI
 - [Ralph Loop plugin](https://github.com/anthropics/claude-code) (for iterative development)
+- I recommend installing `https://vercel.com/blog/introducing-react-best-practices`
 
 ## License
 
