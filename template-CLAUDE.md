@@ -52,7 +52,7 @@ Per iteration:
 **Build → Test → Commit:**
 - Build feature
 - Test with agent-browser (mandatory)
-- Commit only if tests pass
+- Commit after every small change
 
 **After phase complete:**
 1. Check off `[x]` in PRD.md acceptance criteria
@@ -85,7 +85,7 @@ AUTH_SECRET=...
 
 **Always:**
 - Test every change before committing
-- Commit after every small change (when tests pass)
+- Commit after every small change
 - Sacrifice grammar for conciseness
 - Only work on current phase
 
